@@ -8,7 +8,7 @@ Includes:
 - JSON *Marshalling & Unmarshalling* with query parameters.
 - _Unit tests_.
 - API tests with **POSTMAN**.
-- Implementing HTTP verbs, _GET| POST | PUT | DELETE_.
+- Implementing HTTP verbs, _GET | POST | PUT | DELETE_.
 
 and running it on Docker:
  - with variations of Dockerfile, (generic & optimized)
