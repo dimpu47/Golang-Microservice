@@ -10,7 +10,7 @@ Includes:
 - API tests with **POSTMAN**.
 - Implementing HTTP verbs, _GET | POST | PUT | DELETE_.
 
-and running it on __Docker__:
+and running it on __Docker__ (dockerimage: gaurawesome/golang-microservice):
  - with variations of Dockerfile, (generic & optimized)
  - with docker-compose, (separate componenets: app + nginx)
  - docker commands for _CPU & Mem contraints_ and more experiments alike.
