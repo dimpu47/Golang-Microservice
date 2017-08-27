@@ -1,0 +1,13 @@
+FROM golang:1.8.3-alpine
+MAINTAINER Gaurav Choudhary
+
+# ENV SOURCES D:\go\golib\src\github.com\dimpu47\Golang-Microservice
+
+COPY . /go/src/github.com/dimpu47/Golang-Microservice
+
+RUN cd /go/src/github.com/dimpu47/Golang-Microservice && export GOPATH=$GOPATH:`pwd` && CGO_ENABLED=0 go install
+
+ENV PORT 8080
+EXPOSE 8080
+
+ENTRYPOINT Golang-Microservice
