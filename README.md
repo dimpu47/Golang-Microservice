@@ -21,7 +21,7 @@ Includes:
     - using docker-compose, ( w/ separate componenets: app + nginx)
     - docker commands for _CPU & Mem contraints_ and more docker CLI experiments.
  
- ###% Deploying & Scaling Go microservice on __Kubernetes__.
+ ### Deploying & Scaling Go microservice on __Kubernetes__.
 
     - Learning basic architecture of kubernetes. 
     - Using Kubernetes CLI with Kubernetes cluster. (kubectl, minikube)
